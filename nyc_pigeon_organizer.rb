@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     value.each do |inner_key, names| 
       names.each do |name|
         if array.uniq(name)
-          array.
+          array[name] = {}
         end
       end
     end
