@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
-  hash.with_each_object({}) do |(k,v), a|
+  data.with_each_object({}) do |(key, value), hash|
     
   end
 end
